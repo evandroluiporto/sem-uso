@@ -11,8 +11,6 @@ import {
 } from "lucide-react";
 import { useEffect, useState, type ComponentType } from "react";
 
-import curatorImage from "@/assets/curadora-promocoes.png.asset.json";
-
 const whatsappUrl = "https://whats.ly/0dsr7";
 
 const benefits: Array<{
@@ -115,7 +113,7 @@ function Index() {
         <section className="pt-5 text-center sm:pt-6">
           <div className="mx-auto h-28 w-28 overflow-hidden rounded-full shadow-sm sm:h-32 sm:w-32">
             <img
-              src={curatorImage.url}
+              src="/curadora-promocoes.png"
               alt="Curadora do Comprei e Indico sorrindo com o celular"
               className="h-full w-full object-cover"
               width={768}
